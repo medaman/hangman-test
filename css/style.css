@@ -1,0 +1,49 @@
+p{
+  display:inline;
+  margin: 0 10px;
+    color: white;
+}
+
+body {
+	text-align:center;
+  font-family: 'Inconsolata';
+  font-size:50px;
+  background:black;
+}
+
+img {
+	width:400px;
+}
+
+.hangmanperson {
+	width:500px;
+	margin: auto;
+	background: green;
+	position: relative;
+}
+
+#part1, #part2, #part3 {
+	background: white;
+	position: absolute;
+}
+
+#part1 {
+	left: 311px;
+	top:90px;
+	width:100px;
+	height:100px;
+}
+
+#part2 {
+	left: 284px;
+	top:190px;
+	width:150px;
+	height:200px;
+}
+
+#part3 {
+	left: 280px;
+	top:390px;
+	width:150px;
+	height:100px;
+}
